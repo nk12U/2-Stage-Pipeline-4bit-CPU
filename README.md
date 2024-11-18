@@ -1,3 +1,5 @@
 # 2-Stage-Pipeline-4bit-CPU
-論理回路設計演習 / Logic Circuit Design    
+ 
 Pipeline: IF -> EX
+
+Please refer ISA.png, you can understand Instructions which the CPU executes.
