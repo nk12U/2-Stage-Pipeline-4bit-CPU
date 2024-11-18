@@ -2,4 +2,4 @@
  
 Pipeline: IF -> EX
 
-Please refer ISA.png, you can understand Instructions which the CPU executes.
+Please refer ISA.png, then you can understand Instructions which the CPU executes.
