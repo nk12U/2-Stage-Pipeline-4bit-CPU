@@ -15,8 +15,8 @@ module alu_ctrl(
 );
     reg state;
 
-    // 順序回路
-    always @(posedge clock or negedge reset)begin // 非同期負論理リセット
+    always @(posedge clock or negedge reset)
+    begin
         if(!reset)begin
             state <= 1'b0;
         end
@@ -25,7 +25,6 @@ module alu_ctrl(
         end
     end
 
-    // 組み合わせ回路
     assign load_A    = ~state & ~D_BUS_6 & ~D_BUS_7;
     assign load_B    = ~state &  D_BUS_6 & ~D_BUS_7 |
                        ~state & ~D_BUS_4 &  D_BUS_5 & ~D_BUS_6 &  D_BUS_7;
