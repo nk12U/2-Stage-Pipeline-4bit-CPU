@@ -15,15 +15,15 @@ Operand: 4bit
 - CPU
   - ALU
     - alu_ctrl
-    - mux4x4
     - full_adder
     - demux
     - gpr_mux_load
-    - register16
-    - mux4x16
-    - mux4x2
     - register
+    - register16
+    - mux4x2
+    - mux4x4
+    - mux4x16
   - PCU
     - pc_ctrl
-    - pc_ctrl
+    - register
     - counter
