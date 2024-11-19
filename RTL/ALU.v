@@ -38,7 +38,6 @@ module ALU(
 	);
 
 	wire [3:0] s;
-	reg cflag;
 	full_adder full_adder(
 		.A(mux_out),
 		.B(D_BUS[3:0]),
@@ -78,21 +77,21 @@ module ALU(
 		.clock(clock),
 		.d(B_reg_out),
 		.load(gpr_mux_load_out),
-		.q0(q0)
-		.q1(q1)
-		.q2(q2)
-		.q3(q3)
-		.q4(q4)
-		.q5(q5)
-		.q6(q6)
-		.q7(q7)
-		.q8(q8)
-		.q9(q9)
-		.qa(qa)
-		.qb(qb)
-		.qc(qc)
-		.qd(qd)
-		.qe(qe)
+		.q0(q0),
+		.q1(q1),
+		.q2(q2),
+		.q3(q3),
+		.q4(q4),
+		.q5(q5),
+		.q6(q6),
+		.q7(q7),
+		.q8(q8),
+		.q9(q9),
+		.qa(qa),
+		.qb(qb),
+		.qc(qc),
+		.qd(qd),
+		.qe(qe),
 		.qf(qf)
 	);
 
