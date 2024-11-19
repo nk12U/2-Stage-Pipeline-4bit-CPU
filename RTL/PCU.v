@@ -9,7 +9,7 @@ module PCU(
 	wire [3:0] q;
 	wire load;
 
-	register_pcu register_pcu(
+	register register(
 		.reset(reset),
 		.clock(clock),
 		.load(1'b1),
