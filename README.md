@@ -4,6 +4,6 @@
 
 Please refer ISA.png, then you can understand Instructions which the CPU executes.  
 
-`Instruction Width: 8bit  
-Opcode: 4bit  
+`Instruction Width: 8bit<br>
+Opcode: 4bit<br>  
 Operand: 4bit`
