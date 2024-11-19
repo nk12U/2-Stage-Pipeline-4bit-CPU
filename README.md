@@ -1,10 +1,11 @@
 # 2-Stage-Pipeline-4bit-CPU
 
-Overview  
+## Overview  
 This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple instructions efficiently. The CPU architecture follows a two-stage pipeline:  
 
 1. Instruction Fetch (IF)  
 2. Execute (EX)  
+
 Refer to the ISA.png to understand the instructions that the CPU can execute.  
 
 Instruction Width: 8bit  
