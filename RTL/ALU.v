@@ -38,12 +38,13 @@ module ALU(
 	);
 
 	wire [3:0] s;
+	wire cflag_wire;
 	full_adder full_adder(
 		.A(mux_out),
 		.B(D_BUS[3:0]),
 		.cin(1'b0),
 		.S(s),
-		.cout(cflag)
+		.cout(cflag_wire)
 	);
 
 	always @(posedge clock or negedge reset)
@@ -54,7 +55,7 @@ module ALU(
 		end
 		else
 		begin
-			cflag <= cflag;
+			cflag <= cflag_wire;
 		end
 	end
 
