@@ -13,7 +13,26 @@ Instruction Width: 8bit
 Opcode: 4bit  
 Operand: 4bit  
 
-Vanilla
+Extended  
+- CPU
+  - ALU
+    - alu_ctrl
+    - full_adder
+    - multiplier_4x4
+    - demux
+    - gpr_mux_load
+    - register
+    - register16
+    - mux4x2
+    - mux4x4
+    - mux4x16
+  - PCU
+    - pc_ctrl
+    - counter
+  - instruction_register
+    - register
+
+Vanilla  
 - CPU
   - ALU
     - alu_ctrl
@@ -28,4 +47,4 @@ Vanilla
   - PCU
     - pc_ctrl
     - register
-    - counter
+    - counter  
