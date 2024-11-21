@@ -7,7 +7,7 @@ This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple 
 1. Instruction Fetch (IF)  
 2. Execute (EX)  
 
-Refer to the ISA.png to understand the instructions that the CPU can execute.  
+Refer to the ISA.jpg to understand the instructions that the CPU can execute.  
 
 Instruction Width: 8bit  
 Opcode: 4bit  
