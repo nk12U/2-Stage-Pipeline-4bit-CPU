@@ -12,13 +12,6 @@ module CPU(
 	wire [7:0] instruction_out;
 	wire cflag;
 
-	instruction_register instruction_register(
-		.reset(reset),
-		.clock(clock),
-		.D(D_BUS),
-		.Q(instruction_out)
-	);
-
 	ALU ALU(
 		.clock(clock),
 		.reset(reset),
@@ -37,6 +30,13 @@ module CPU(
 		.D_BUS(D_BUS),
 		.cflag(cflag),
 		.address(address)
+	);
+
+	instruction_register instruction_register(
+		.reset(reset),
+		.clock(clock),
+		.D(D_BUS),
+		.Q(instruction_out)
 	);
 
 endmodule
