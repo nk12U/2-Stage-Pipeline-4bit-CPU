@@ -13,6 +13,11 @@ Instruction Width: 8bit
 Opcode: 4bit  
 Operand: 4bit  
 
+Operationg Environment:  
+FPGA: Altera Cyclone IV  
+Quartus Prime Lite 23.1std  
+ModelSim 19.1  
+
 Extended  
 - CPU
   - ALU
