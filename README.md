@@ -19,6 +19,7 @@ Quartus Prime Lite 23.1std
 ModelSim 19.1  
 
 ### Extended  
+
 - CPU
   - ALU
     - alu_ctrl
@@ -37,7 +38,8 @@ ModelSim 19.1
   - instruction_register
     - register
 
-### Vanilla  
+### Vanilla
+
 - CPU
   - ALU
     - alu_ctrl
