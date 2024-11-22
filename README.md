@@ -7,16 +7,21 @@ This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple 
 1. Instruction Fetch (IF)  
 2. Execute (EX)  
 
+## ISA
+
 Refer to the ISA.jpg to understand the instructions that the CPU can execute.  
+<img src = "https://github.com/nk12U/2-Stage-Pipeline-4bit-CPU/blob/main/ISA.jpg">
 
-Instruction Width: 8bit  
-Opcode: 4bit  
-Operand: 4bit  
+- Instruction Width: 8bit  
+- Opcode: 4bit  
+- Operand: 4bit  
 
-Operationg Environment:  
-FPGA: Altera Cyclone IV  
-Quartus Prime Lite 23.1std  
-ModelSim 19.1  
+## Operationg Environment
+
+- FPGA: Altera Cyclone IV  
+- Quartus Prime Lite 23.1std  
+- ModelSim 19.1
+- VSCode
 
 ### Extended  
 
