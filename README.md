@@ -9,11 +9,10 @@ This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple 
 
 ## ISA
 
-<img src = "https://github.com/nk12U/2-Stage-Pipeline-4bit-CPU/blob/main/ISA.jpg">
-
 - Instruction Width: 8bit  
 - Opcode: 4bit  
-- Operand: 4bit  
+- Operand: 4bit 
+<img src = "https://github.com/nk12U/2-Stage-Pipeline-4bit-CPU/blob/main/ISA.jpg"> 
 
 ## Operationg Environment
 
