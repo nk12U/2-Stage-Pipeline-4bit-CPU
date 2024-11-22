@@ -18,7 +18,7 @@ This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple 
 
 - FPGA: Altera Cyclone IV  
 - Quartus Prime Lite 23.1std  
-- ModelSim 19.1
+- ModelSim 20.1
 - VSCode
 
 ## RTL Hierarchy
