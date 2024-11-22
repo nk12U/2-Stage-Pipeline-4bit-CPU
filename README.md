@@ -9,7 +9,6 @@ This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple 
 
 ## ISA
 
-Refer to the ISA.jpg to understand the instructions that the CPU can execute.  
 <img src = "https://github.com/nk12U/2-Stage-Pipeline-4bit-CPU/blob/main/ISA.jpg">
 
 - Instruction Width: 8bit  
@@ -22,6 +21,8 @@ Refer to the ISA.jpg to understand the instructions that the CPU can execute.
 - Quartus Prime Lite 23.1std  
 - ModelSim 19.1
 - VSCode
+
+## RTL Hierarchy
 
 ### Extended  
 
