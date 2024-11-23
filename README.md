@@ -14,7 +14,7 @@ This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple 
 - Operand: 4bit 
 <img src = "https://github.com/nk12U/2-Stage-Pipeline-4bit-CPU/blob/main/ISA.jpg"> 
 
-## Operationg Environment
+## Environment
 
 - FPGA: Altera Cyclone IV  
 - [Quartus Prime Lite 23.1.1](https://www.intel.com/content/www/us/en/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html)
