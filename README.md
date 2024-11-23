@@ -59,4 +59,8 @@ This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple 
   - PCU
     - pc_ctrl
     - register
-    - counter  
+    - counter
+
+## Syllabus
+
+[Advanced Practice of Electrical and Electronic Engineering](https://www.k.kyoto-u.ac.jp/external/open_syllabus/department_syllabus?lectureNo=12006&departmentNo=16)
