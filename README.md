@@ -2,7 +2,7 @@
 
 ## Overview  
 
-This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple instructions efficiently. The CPU architecture follows a two-stage pipeline:  
+This project implements a 2-Stage Pipeline 4-bit CPU designed to execute 16 instructions. The CPU architecture follows a two-stage pipeline:  
 
 1. Instruction Fetch (IF)  
 2. Execute (EX)  
