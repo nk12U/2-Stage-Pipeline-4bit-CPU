@@ -20,7 +20,6 @@ This project implements a 2-Stage Pipeline 4-bit CPU designed to execute simple 
 - [Quartus Prime Lite 23.1.1](https://www.intel.com/content/www/us/en/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html)
 - [ModelSim 20.1.1](https://www.intel.com/content/www/us/en/software-kit/660907/intel-quartus-prime-lite-edition-design-software-version-20-1-1-for-windows.html)
 - [VSCode](https://code.visualstudio.com/)
-- <a href="https://www.intel.com/content/www/us/en/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html" target="_blank">リンクのテキスト</a>
 
 ## RTL Hierarchy
 
