@@ -9,7 +9,10 @@ This project implements a 2-Stage Pipeline 4bit CPU designed to execute simple i
 
 ## ISA
 
-- Instruction Width: 8bit  
+- RISC
+- Harvard Architecture
+- Road-Store Architecture
+- Instruction Length: 8bit  
 - Opcode: 4bit  
 - Operand: 4bit 
 <img src = "https://github.com/nk12U/2-Stage-Pipeline-4bit-CPU/blob/main/ISA.jpg"> 
